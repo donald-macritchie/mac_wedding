@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Bonbon&family=Butterfly+Kids&family=Caesar+Dressing&family=Londrina+Sketch&family=Mrs+Saint+Delafield&family=Petit+Formal+Script&family=Rubik+Puddles&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Shade&family=Fontdiner+Swanky&family=Imperial+Script&family=Kablammo&family=Metal+Mania&family=New+Rocker&family=Orbitron:wght@400..900&family=Underdog&family=UnifrakturMaguntia&display=swap');
+@import "tailwindcss";
+
+
+
+
+.montserrat {
+  font-family: "Montserrat", serif;
+}
+.oswald {
+  font-family: "Oswald", serif;
+}
+.josefin-sans {
+  font-family: "Josefin Sans", serif;
+}
+
+.new-rocker-regular {
+  font-family: "New Rocker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.metal-mania-regular {
+  font-family: "Metal Mania", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fontdiner-swanky-regular {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.imperial-script-regular {
+  font-family: "Imperial Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.borel-regular {
+  font-family: "Borel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kablammo {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.barrio-regular {
+  font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bonbon-regular {
+  font-family: "Bonbon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.butterfly-kids-regular {
+  font-family: "Butterfly Kids", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.caesar-dressing-regular {
+  font-family: "Caesar Dressing", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.splash-regular {
+  font-family: "Splash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.londrina-sketch-regular {
+  font-family: "Londrina Sketch", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mrs-saint-delafield-regular {
+  font-family: "Mrs Saint Delafield", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.ceremony-text {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

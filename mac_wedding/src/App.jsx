@@ -10,23 +10,23 @@ import RSVP from "./components/RSVP/RSVP";
 import Thanks from "./components/Thanks/Thanks";
 
 function App() {
-  const [accessGranted, setAccessGranted] = useState(false);
-  const [inputPin, setInputPin] = useState("");
+  // const [accessGranted, setAccessGranted] = useState(false);
+  // const [inputPin, setInputPin] = useState("");
 
-  const correctPin = "3105"; // Change this to your desired PIN
+  // const correctPin = "3105"; // Change this to your desired PIN
 
-  const handleLogin = () => {
-    if (inputPin === correctPin) {
-      setAccessGranted(true);
-    } else {
-      alert("Incorrect PIN. Try again!");
-      setInputPin("");
-    }
-  };
+  // const handleLogin = () => {
+  //   if (inputPin === correctPin) {
+  //     setAccessGranted(true);
+  //   } else {
+  //     alert("Incorrect PIN. Try again!");
+  //     setInputPin("");
+  //   }
+  // };
 
   return (
     <>
-      {!accessGranted ? (
+      {/* {!accessGranted ? (
         <div className="flex justify-center items-center h-screen bg-gray-100">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <h2 className="text-2xl font-bold mb-4">Enter PIN to Access</h2>
@@ -55,7 +55,17 @@ function App() {
           <FAQs />
           <Thanks />
         </div>
-      )}
+      )} */}
+      <div className="bg-gradient-to-b from-[#A8D1AD] to-[#FFFFF3] w-full h-full">
+        <Header />
+        <Timeline />
+        <WeddingDetails />
+        <RSVPHeader />
+        <RSVP />
+        <FAQsHeader />
+        <FAQs />
+        <Thanks />
+      </div>
     </>
   );
 }

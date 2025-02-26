@@ -30,7 +30,7 @@ const FAQsHeader = () => {
             scrollTrigger: {
               trigger: word,
               start: "top 60%",
-              end: "top 40%",
+              end: "top 50%",
               scrub: true,
             },
           }

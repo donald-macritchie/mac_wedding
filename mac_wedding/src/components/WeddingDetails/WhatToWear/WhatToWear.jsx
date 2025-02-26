@@ -25,7 +25,7 @@ const WhatToWear = () => {
           ease: "power2.out",
           scrollTrigger: {
             trigger: word,
-            start: "top 85%",
+            start: "top 75%",
             end: "top 60%",
             scrub: true,
           },

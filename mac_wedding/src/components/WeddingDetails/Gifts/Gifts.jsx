@@ -42,14 +42,6 @@ const Gifts = () => {
             </p>
           </div>
         </div>
-
-        {/* Footer Text */}
-        <div className="z-50 text-gray-700 text-sm absolute bottom-0 mb-4 max-w-[340px] w-[80%] text-center">
-          <p>
-            *(Hi, Don here. Seriously, if you want to spoil us a little, we
-            won’t say no to some cold hard cash!)
-          </p>
-        </div>
       </div>
     </div>
   );

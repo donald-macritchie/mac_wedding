@@ -45,7 +45,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="bg-gradient-to-b from-[#A8D1AD] to-[#FFFFF3] w-full h-full">
+        <div className="bg-[#A8D1AD] w-full h-full">
           <Header />
           <Timeline />
           <WeddingDetails />
@@ -56,16 +56,6 @@ function App() {
           <Thanks />
         </div>
       )}
-      <div className="bg-[#A8D1AD] w-full h-full">
-        <Header />
-        <Timeline />
-        <WeddingDetails />
-        <RSVPHeader />
-        <RSVP />
-        <FAQsHeader />
-        <FAQs />
-        <Thanks />
-      </div>
     </>
   );
 }

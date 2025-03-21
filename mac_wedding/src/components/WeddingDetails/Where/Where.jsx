@@ -22,7 +22,7 @@ const Where = () => {
           y: 0,
           scale: 1,
           rotate: 0,
-          duration: 1.2,
+          duration: 1.3,
           ease: "power2.out",
           scrollTrigger: {
             trigger: word,
